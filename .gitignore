@@ -1,10 +1,15 @@
-HELP.md
+# Compiled class files and build artifacts
 target/
+build/
+
+# Maven wrapper
 !.mvn/wrapper/maven-wrapper.jar
+
+# Exclude generated files in src/main and src/test
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# Spring Tools Suite (STS)
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +18,44 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
+
+# Logs and other temporary files
+*.log
+*.tmp
+
+# Environment files
+.env
+.env.local
+
+# macOS Finder metadata
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Eclipse specific files
+.classpath
+.project
+
+# Miscellaneous
+*.swp
+*.swo
+
+# Exclude application configuration files with sensitive data
+application.properties
+application.yml

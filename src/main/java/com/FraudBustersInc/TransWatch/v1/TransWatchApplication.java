@@ -14,14 +14,4 @@ public class TransWatchApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TransWatchApplication.class, args);
 	}
-
-	@RestController
-	@RequestMapping("/api/v1")
-	public static class HelloWorldController {
-
-		@GetMapping("/hello_world")
-		public String helloWorld() {
-			return "Hello World";
-		}
-	}
 }
