@@ -1,4 +1,4 @@
 package com.FraudBustersInc.TransWatch.v1.Repositories;
 
-public class TransactionalRepository {
+public interface TransactionalRepository {
 }
